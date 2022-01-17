@@ -7,6 +7,10 @@ maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CCW, 51)
 basic.pause(1000)
 maqueen.motorStop(maqueen.Motors.All)
 basic.showIcon(IconNames.No)
+basic.pause(1000)
+maqueen.servoRun(maqueen.Servos.S1, 90)
+maqueen.servoRun(maqueen.Servos.S2, 90)
+basic.showIcon(IconNames.Target)
 basic.forever(function () {
 	
 })
